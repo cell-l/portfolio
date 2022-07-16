@@ -1,0 +1,76 @@
+
+body {
+  background-image: url('/Users/johanthan/html/project1/backing.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  /*background-color: black;*/
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: Helvetica;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 35px;
+  padding: 5px 5px;
+  width: 339px;
+  float: right;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 35px
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #B1B1B1;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#rightblock {
+  display: inline-block;
+  float;
+  background: #f2f2f2;
+  width: 800px;
+  height: 500px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  font-family: Inter, Helvetica;
+  font-size: 65px;
+  padding-left: 10px;
+}
+
+#line2 {
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 1px;
+}
+
+.bluetext {
+  color: blue;
+}
